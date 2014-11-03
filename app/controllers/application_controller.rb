@@ -9,9 +9,4 @@ class ApplicationController < Sinatra::Application
     @tweets = Tweet.all
     erb :tweets
   end
-
-  post '/tweets' do
-    Tweet.new(params[:user], params[:status])
-    redirect '/tweets'
-  end
 end
