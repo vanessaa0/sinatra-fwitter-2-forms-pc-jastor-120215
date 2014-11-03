@@ -1,9 +1,9 @@
 require_relative "../../config/environment.rb"
 
 class Tweet
-  attr_accessor :user, :status
+  attr_reader :user, :status
   
-  @@all = []
+  ALL = []
 
   def initialize(user, status)
     @user = user
@@ -20,6 +20,6 @@ class Tweet
   # end
 
   def self.all
-    @@all
+    ALL
   end
 end
