@@ -1,5 +1,3 @@
-require 'sinatra'
-require 'pry'
 require 'bundler'
 Bundler.require
 
