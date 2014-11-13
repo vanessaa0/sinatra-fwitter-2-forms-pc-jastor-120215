@@ -1,7 +1,7 @@
 require_relative '../../config/environment'
 require './app/models/tweet'
 
-class ApplicationController < Sinatra::Application
+class ApplicationController < Sinatra::Base
 
   get '/index' do
     Tweet.new("Vanessa", "My first tweet! SO EXCITING OMG!!!")
@@ -11,4 +11,10 @@ class ApplicationController < Sinatra::Application
     @tweets = Tweet.all
     erb :index
   end
+
+  configure do
+    set :public_folder, 'public'
+    set :views, 'app/views'
+  end
+  
 end
