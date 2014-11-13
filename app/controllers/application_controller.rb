@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
     Tweet.new("Vanessa", "A third tweet! ZOMG!!!")
     Tweet.new("Vanessa", "This is so cool!")
     @tweets = Tweet.all
-    erb :index
+    erb :tweets
   end
 
   configure do
