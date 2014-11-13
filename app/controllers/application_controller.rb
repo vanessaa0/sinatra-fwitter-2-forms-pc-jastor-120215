@@ -3,6 +3,11 @@ require './app/models/tweet'
 
 class ApplicationController < Sinatra::Base
 
+  configure do
+    set :public_folder, 'public'
+    set :views, 'app/views'
+  end
+
   get '/tweets' do
     Tweet.new("Vanessa", "My first tweet! SO EXCITING OMG!!!")
     Tweet.new("Vanessa", "My second tweet! Still super exciting!!!")
@@ -10,11 +15,6 @@ class ApplicationController < Sinatra::Base
     Tweet.new("Vanessa", "This is so cool!")
     @tweets = Tweet.all
     erb :tweets
-  end
-
-  configure do
-    set :public_folder, 'public'
-    set :views, 'app/views'
   end
   
 end
