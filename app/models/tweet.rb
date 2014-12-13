@@ -1,14 +1,14 @@
 class Tweet
   ALL = []
 
-  def initialize(user, status)
-    @user = user
+  def initialize(username, status)
+    @username = username
     @status = status
     ALL << self
   end
 
-  def user
-    @user
+  def username
+    @username
   end
 
   def status
