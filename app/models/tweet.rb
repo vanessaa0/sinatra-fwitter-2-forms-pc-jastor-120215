@@ -1,7 +1,7 @@
 class Tweet
   attr_accessor :username, :status
 
-  ALL = []
+  ALL_TWEETS = []
 
   def initialize(username, status)
     @username = user
@@ -10,7 +10,7 @@ class Tweet
   end
 
   def self.all
-    ALL
+    ALL_TWEETS
   end
 
 end
