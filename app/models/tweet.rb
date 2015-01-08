@@ -1,5 +1,5 @@
 class Tweet
-  ALL = []
+  ALL_TWEETS = []
 
   def initialize(username, status)
     @username = username
@@ -16,6 +16,6 @@ class Tweet
   end
 
   def self.all
-    ALL
+    ALL_TWEETS
   end
 end
