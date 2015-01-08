@@ -1,4 +1,4 @@
-require_relative '../../config/environment'
+require './config/environment'
 require './app/models/tweet'
 
 class ApplicationController < Sinatra::Application
