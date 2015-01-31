@@ -8,6 +8,10 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
+  get '/' do
+    "Welcome to Fwitter"
+  end
+
   get '/tweets' do
     Tweet.new("Vanessa", "My first tweet! SO EXCITING OMG!!!")
     Tweet.new("Vanessa", "My second tweet! Still super exciting!!!")
