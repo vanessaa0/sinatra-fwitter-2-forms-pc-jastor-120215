@@ -1,3 +1,1 @@
-require 'bundler'
-Bundler.require
 
