@@ -1,6 +1,8 @@
 # Fwitter Project!
 
-This repository holds branches for every iteration of the Fwitter Project
+_You can read today's specific notes [here](DAY01-MVC.md)_
+
+This repository holds branches for every iteration of the Fwitter Project.
 
 - [Day 1- MVC]()
 
