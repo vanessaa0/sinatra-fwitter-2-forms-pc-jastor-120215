@@ -1,3 +1,5 @@
+<!-- Our Views are responsible for what the user will see. -->
+
 <!doctype html>
 <html>
   <head>
@@ -10,6 +12,7 @@
       <h1>Welcome to Fwitter!</h1>
 
       <h2>Tweets!</h2>
+      <!-- Using the erb tag, we can iterate through our @tweets array. We then get a new p tag for each tweet. Inside, we use the erb tag again to display that tweet's username and status.  -->
       <% @tweets.each do |tweet| %>
         <p><strong><%= tweet.username %>:</strong> <%= tweet.status %></p>
       <% end %>
