@@ -3,7 +3,7 @@
 ## Outline
 
 1. Create a new file, `tweet.erb`, to render a form. The form should have inputs for username and status. 
-2. Create a route in the controller to render the `tweet.erb` template. Create another route for when the form is submitted.  
+2. Create a route in the controller to render the `tweet.erb` template. Create another route for when the form is submitted. 
 3. In the `post` route, create a new instance of our Tweet class based on params. Redirect to the '/' route (instruct users to use `rackup` instead of `shotgun` to run their server, or they won't see the newly created tweet.
 
 ## Objectives
