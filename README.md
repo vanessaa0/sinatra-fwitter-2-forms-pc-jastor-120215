@@ -1,29 +1,24 @@
-# MVC Review
+# Sinatra Fwitter 2 -  Forms
 
-This project reflects the first iteration of the Fwitter project: a Sinatra backed MVC application. 
+## Outline
 
-+ `tweet.rb`:
-  * This file is the model. The model in MVC is the portion of the application that handles all the data processing. In this case, it's responsible for creating all our tweets
-  * tweets are initialized with a status and username
-  * Every tweet is added to an `ALL_TWEETS` array on initialization
+1. Create a new file, `tweet.erb`, to render a form. The form should have inputs for username and status. 
+2. Create a route in the controller to render the `tweet.erb` template. Create another route for when the form is submitted.  
+3. In the `post` route, create a new instance of our Tweet class based on params. Redirect to the '/' route (instruct users to use `rackup` instead of `shotgun` to run their server, or they won't see the newly created tweet.
 
-+ `application_controller.rb`:
-  * This file is the big communicator of the application, the controller. The controller in MVC is the portion that gets the information from the user, hands it off to the model to process, and delivers it back to the view. All your routes are defined in the controller.
-  * we create a `get` request that displays all the tweets created in the route in the view (index.erb)
+## Objectives
 
-+ `index.erb`:
-  * This file is our view, and displays all the information. 
-  * We have access to all the tweets through the `@tweets` attribute because of the controller. 
-  * We use ERB tags `<%= %>` to display ruby code in the view
-  * Iterate over `@tweets` array to display each individual tweet
+1. Objective 1
+2. Objective 2
 
-+ `Gemfile`
-  * This file controls all the gems we use in this application, including Sinatra and pry.
+## Instructions
 
-+ `config.ru`:
-  * This file is what is used to actually run our app and display it in the browser
+Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
 
-+ `Public`:
-  * This directory includes all the extra assets like CSS, JS, and images
+Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-+ In terminal, run `rackup` to start a localhost server.
+### Part 1: Do Some Stuff
+
+## Resources
+
+* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
