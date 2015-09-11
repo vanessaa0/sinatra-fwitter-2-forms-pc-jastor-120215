@@ -1,18 +1,12 @@
 class Tweet
   ALL_TWEETS = [] 
 
+  attr_accessor :username, :status
+  
   def initialize(username, status)
     @username = username
     @status = status
     ALL_TWEETS << self 
-  end
-
-  def username
-    @username
-  end
-
-  def status
-    @status
   end
 
   def self.all 

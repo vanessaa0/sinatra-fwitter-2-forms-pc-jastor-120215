@@ -8,13 +8,17 @@
 
 ## Objectives
 
-1. Understand the differnece between a "get" and a "post" request. 
+1. Understand the difference between a "get" and a "post" request. 
 2. Create a form with a method and action.
 3. Use data submitted through a form in `params` to instantiate new instances of objects
 
+## Overview
 
+Last time in Fwitter, we created the basic layout of our Model-View-Controller file structure. Today, let's add a form so that users can dynamically create new tweets. 
 
 ## Instructions
+
+### Setup
 
 Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
 
