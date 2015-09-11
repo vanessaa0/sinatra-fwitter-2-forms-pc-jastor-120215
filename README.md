@@ -8,8 +8,11 @@
 
 ## Objectives
 
-1. Objective 1
-2. Objective 2
+1. Understand the differnece between a "get" and a "post" request. 
+2. Create a form with a method and action.
+3. Use data submitted through a form in `params` to instantiate new instances of objects
+
+
 
 ## Instructions
 
