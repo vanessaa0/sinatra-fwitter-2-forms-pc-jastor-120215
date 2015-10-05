@@ -30,7 +30,7 @@ The first thing we'll need for our users to be able to post their own tweets is 
 
 Let's build out a form in our `tweet.erb` file. It should have an action of `/tweet` and a method of `post`. 
 
-```ERB
+```erb
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,7 +47,7 @@ Let's build out a form in our `tweet.erb` file. It should have an action of `/tw
 ```
 Our form needs two inputs - one for `username` and one for `status`. We'll use a type of `text` for each one, as well as `name`. The `name` attribute is very important - this will be the key in the `params` hash when the user makes their post request. We can make the `name` attribute whatever we want, but `username` and `status` make sense. Finally, we also need a Submit button so users can submit the form.
 
-```ERB
+```erb
 <!DOCTYPE html>
 <html>
   <head>
